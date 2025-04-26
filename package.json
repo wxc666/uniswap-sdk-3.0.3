@@ -1,7 +1,7 @@
 {
   "name": "@wangxc/sdk",
   "license": "MIT",
-  "version": "3.10.3",
+  "version": "3.10.4",
   "description": "🛠 An SDK for building applications on top of Uniswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -53,6 +53,10 @@
   },
   "engines": {
     "node": ">=10"
+  },
+  "volta": {
+    "node": "16.20.2",
+    "yarn": "1.22.22"
   },
   "prettier": {
     "printWidth": 120,
